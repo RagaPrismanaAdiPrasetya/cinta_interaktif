@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Cinta</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ffcccc;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+      width: 500px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .heart-animation {
+      position: absolute;
+      top: -50px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: -1;
+      animation: heartbeat 1.5s infinite;
+    }
+    .heart-animation::before {
+      content: '❤️';
+      font-size: 5em;
+      color: rgba(255, 77, 77, 0.2);
+    }
+    @keyframes heartbeat {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+    }
+    .profile-picture {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 4px solid #ff4d4d;
+    }
+    .name {
+      font-size: 2em;
+      font-weight: bold;
+      color: #ff4d4d;
+      margin: 10px 0;
+    }
+    .message {
+      font-size: 1.1em;
+      color: #555;
+      margin: 15px 0;
+      line-height: 1.6;
+      padding: 0 20px;
+    }
+    .quote {
+      font-style: italic;
+      color: #b30000;
+      margin: 10px 0;
+    }
+    .button {
+      display: inline-block;
+      background-color: #ff4d4d;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #ff6666;
+    }
+    .photo-gallery {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .photo-gallery img {
+      width: 80px;
+      height: 80px;
+      border-radius: 10px;
+      border: 2px solid #ff4d4d;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .photo-gallery img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="heart-animation"></div>
+    <img src="https://via.placeholder.com/120" alt="Foto Pasangan" class="profile-picture">
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animasi Geser dengan Delay</title>
+  <style>
+    @keyframes slideInFromBottom {
+      0% {
+        transform: translateY(100%); /* Mulai dari luar layar di bawah */
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0); /* Berhenti di posisi normal */
+        opacity: 1;
+      }
+    }
+
+    .slide-up {
+      animation: slideInFromBottom 1s ease-out 0.5s; /* Lama animasi 1 detik, delay 0.5 detik */
+      background-color: #ff4d4d;
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      font-size: 1.5em;
+      display: inline-block;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-up">I Love You Cintaku</div>
+</body>
+</html>
+    <div class="name">Vanicha Amelia</div><!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animasi Berdenyut</title>
+  <style>
+    /* Keyframes untuk animasi berdenyut */
+    @keyframes heartbeat {
+      0%, 100% {
+        transform: scale(1); /* Ukuran normal */
+      }
+      50% {
+        transform: scale(1.2); /* Membesar pada tengah animasi */
+      }
+    }
+
+    /* Menerapkan animasi ke elemen */
+    .pulse {
+      display: inline-block;
+      font-size: 2em;
+      color: #ff4d4d;
+      animation: heartbeat 1s ease-in-out infinite; /* Lama animasi 1 detik dan berulang */
+    }
+  </style>
+</head>
+<body>
+  <div class="pulse">❤</div>
+</body>
+</html>
+    <div class="message">"Kehadiranmu mengubah hidupku menjadi lebih bermakna. Setiap detik bersamamu adalah keajaiban."</div>
+    <div class="quote">"Aku akan selalu mencintaimu, sampai akhir waktu."</div>
+<a href="pesan_cinta.html" class="button">Pencet Sayang</a>
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animasi Berdenyut</title>
+  <style>
+    /* Keyframes untuk animasi berdenyut */
+    @keyframes heartbeat {
+      0%, 100% {
+        transform: scale(1); /* Ukuran normal */
+      }
+      50% {
+        transform: scale(1.2); /* Membesar pada tengah animasi */
+      }
+    }
+
+    /* Menerapkan animasi ke elemen */
+    .pulse {
+      display: inline-block;
+      font-size: 2em;
+      color: #ff4d4d;
+      animation: heartbeat 1s ease-in-out infinite; /* Lama animasi 1 detik dan berulang */
+    }
+  </style>
+</head>
+<body>
+  <div class="pulse">❤️</div>
+</body>
+</html>
+    
+
+    <!-- Galeri Foto -->
+    <div class="photo-gallery">
+      <img src="" alt="Momen 1">
+      <img src="https://via.placeholder.com/80" alt="Momen 2">
+      <img src="https://via.placeholder.com/80" alt="Momen 3">
+      <img src="https://via.placeholder.com/80" alt="Momen 4">
+      <head>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<style>
+  .name {
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    color: #ff4d4d;
+  }
+</style>
+    </div>
+  </div>
+</body>
+</html>
